@@ -1,0 +1,81 @@
+body{
+    height: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgb(35, 63, 85);
+ }
+
+
+.container{
+
+    right: 10px;
+    margin: 0px;
+    max-width: 200px;
+    padding: 18px;
+    
+}
+.form{
+    text-align: center;
+}
+
+input[type=text],
+input[type= number],
+input[type=names],
+input[type=country],
+input[type=username],
+input[type=password]{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+  width:185px;
+    height: 30px;
+    padding: 8px;
+    margin:3% 25% 1% 25%;
+    text-align: left; 
+   }
+
+.btn{
+    
+    padding: 1px 20px;
+    cursor: pointer;
+    width: 200%;
+    opacity: 1;
+    margin-left: 100px;
+    margin-top:28px;
+    background-color: rgb(150, 223, 223);
+    text-align: left;
+   
+  
+
+}
+.btw:hover{
+    opacity:1;
+}
+.btn{
+    width: 170px;
+    height: 40px;
+    font-size: smaller;
+  
+}
+.account{
+    display: flex;
+
+}  
+form{
+    background-color:white;
+    width: 370px;
+    padding-right: 3%;
+}
+
+
+h1{
+    text-align: center;
+    font-size:20px;
+}
+p{
+    text-align: center;
+}
+a{
+    color: blue;
+}
+
+    
